@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: amitfreeze/flaskapp:latest
+        image: amitfreeze/flaskapp:v1
         ports:
           - containerPort: 5000
         env:
